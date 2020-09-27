@@ -33,5 +33,5 @@ import 'package:animated_otp_fields/animated_otp_fields';
 
 ## Usage
 
-<img src="https://github.com/dev-bharatgupta/animated_otp_fields/edit/master/images/Second.gif">
+<img src="../images/Second.gif?raw=true">
 
