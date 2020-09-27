@@ -1,6 +1,6 @@
 # animated_otp_fields
 
-<div align=”center”>![](images/First.png)</div>
+![](images/First.png)
 
 A new Flutter package project for entering otp in a beautiful and highly customizable way.
 
@@ -34,3 +34,5 @@ import 'package:animated_otp_fields/animated_otp_fields';
 ## Usage
 
 Plese refer to example/
+
+![](images/Second.gif)
