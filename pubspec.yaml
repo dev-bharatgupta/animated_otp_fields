@@ -1,7 +1,6 @@
 name: animated_otp_fields
-description: A new Flutter package project.
+description: A new Flutter package project for entering otp in a beautiful and highly customizable way.
 version: 0.0.1
-author: Bharat Gupta <dev.bharatgupta@gmail.com>
 homepage: https://github.com/dev-bharatgupta/animated_otp_fields.git
 
 environment:
