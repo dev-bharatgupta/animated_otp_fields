@@ -1,5 +1,6 @@
 # animated_otp_fields
-![](images/First.png)
+
+<div align=”center”>![](images/First.png)</div>
 
 A new Flutter package project for entering otp in a beautiful and highly customizable way.
 
@@ -31,3 +32,5 @@ Now in your Dart code, you can use:
 import 'package:animated_otp_fields/animated_otp_fields';
 
 ## Usage
+
+Plese refer to example/
