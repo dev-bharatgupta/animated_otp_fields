@@ -266,6 +266,7 @@ class _animated_otp_fieldState extends State<animated_otp_fields>
           height: 15,
           child: TextFormField(
             enableSuggestions: false,
+            enableInteractiveSelection: false,
             autocorrect: false,
             obscureText: true,
             style: TextStyle(color: Colors.transparent),
