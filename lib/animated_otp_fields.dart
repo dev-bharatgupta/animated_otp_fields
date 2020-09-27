@@ -1,8 +1,8 @@
 library animated_otp_fields;
+
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
 
 enum TextAnimation { Scaling, Fading, None, Rotation, Sizing }
 //enum Border{  }
@@ -76,7 +76,7 @@ class _animated_otp_fieldState extends State<animated_otp_fields>
         oldWidget.textEditingController != widget.textEditingController) {
       int oldOTPLength = 0;
 
-      print("didupdate");
+      // print("didupdate");
       // TODO: implement didUpdateWidget
       ///maximum value of otp digits can be 8
       if (widget.OTP_digitsCount > 8) widget.OTP_digitsCount = 8;
@@ -161,7 +161,7 @@ class _animated_otp_fieldState extends State<animated_otp_fields>
 
   @override
   void initState() {
-    print("inti");
+    //print("inti");
 
     ///maximum value of otp digits can be 8
     if (widget.OTP_digitsCount > 8) widget.OTP_digitsCount = 8;
@@ -255,13 +255,13 @@ class _animated_otp_fieldState extends State<animated_otp_fields>
 
   @override
   Widget build(BuildContext context) {
-    print(_animationController.length);
+    // print(_animationController.length);
     idx = 0;
     return Stack(
       alignment: Alignment.center,
       children: <Widget>[
         Container(
-          // color: Colors.black,
+          color: Colors.transparent,
           width: 15,
           height: 15,
           child: TextFormField(
@@ -285,7 +285,7 @@ class _animated_otp_fieldState extends State<animated_otp_fields>
           ),
         ),
         Container(
-          height: 15,
+          height: 30,
           width: 30,
           color: Colors.transparent,
         ),
@@ -293,7 +293,7 @@ class _animated_otp_fieldState extends State<animated_otp_fields>
           onTap: () {
             if (!_OTPfocusnode.hasFocus)
               FocusScope.of(context).requestFocus(_OTPfocusnode);
-            if (_OTPfocusnode.hasFocus) FocusScope.of(context).unfocus();
+            // if (_OTPfocusnode.hasFocus) FocusScope.of(context).unfocus();
 
             SystemChannels.textInput.invokeMethod('TextInput.show');
           },

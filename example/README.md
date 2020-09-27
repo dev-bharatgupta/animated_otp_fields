@@ -1,4 +1,4 @@
-# dependency_maker
+# example
 
 A new Flutter project.
 
