@@ -34,5 +34,8 @@ import 'package:animated_otp_fields/animated_otp_fields';
 ## Usage
 
 Plese refer to example/
+<<<<<<< HEAD
 
 ![](images/Second.gif)
+=======
+>>>>>>> d43f45090a34de9dabff311e957effc759ee164c
