@@ -1,6 +1,5 @@
 # animated_otp_fields
-
-                                ![](images/First.png)
+![](images/First.png)
 
 A new Flutter package project for entering otp in a beautiful and highly customizable way.
 
