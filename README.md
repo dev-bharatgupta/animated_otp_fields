@@ -1,7 +1,7 @@
 # animated_otp_fields
 
 <p align="center">
-<img src="https://github.com/dev-bharatgupta/animated_otp_fields/blob/master/images/First.png" />
+<img src="https://raw.githubusercontent.com/dev-bharatgupta/animated_otp_fields/master/images/First.png" />
 </p>
 A new Flutter package project for entering otp in a beautiful and highly customizable way.
 
@@ -47,5 +47,5 @@ Please refer ```example/lib/main.dart```
 
 
 <p align="center">
-<img src="https://github.com/dev-bharatgupta/animated_otp_fields/blob/master/images/Second.gif" height="500"/>
+<img src="https://raw.githubusercontent.com/dev-bharatgupta/animated_otp_fields/master/images/Second.gif" height="500"/>
 </p>
